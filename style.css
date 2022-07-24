@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2b2922;
+  color: #f1f0ef;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 40px;
+}
+
+nav [alt="brand white-logo"] {
+  height: 40px;
+  margin-right: auto;
+}
+
+nav li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+}
+
+nav button {
+  all: unset;
+  font-size: 0.9em;
+  color: #a08f36;
+  background-color: transparent;
+  padding: 0.5em 1em;
+  border: 2px solid #a08f36;
+  border-radius: 0.5em;
+}
+
+.company-title {
+  margin: 40px;
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+
+.heading {
+  width: 55%;
+}
+.heading h1 {
+  font-size: 3.5em;
+  text-transform: capitalize;
+}
+
+.company-word {
+  width: 30%;
+  font-weight: 200;
+}
+
+.justice-image {
+  background-image: url("./assets/Law.jpg");
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+}
+
+.caurosel {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.caurosel span{
+    display: flex;
+    font-size: 5em;
+    font-weight: 200;
+    height: 1em;
+    width: 1em;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.caurosel span:nth-of-type(1){
+    background-color: #39372d;
+}
+
+.caurosel span:nth-of-type(2){
+    background-color: #a08f36;
+}
+
