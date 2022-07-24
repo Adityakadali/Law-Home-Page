@@ -1,6 +1,6 @@
 # This is a landing page for imaginary Law firm
 
-Made by Aditya Kadali
+Made by **Aditya Kadali**
 
 ## Screenshots
 
