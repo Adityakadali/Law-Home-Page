@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap");
 *,
 *::after,
-*::before  {
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -32,13 +32,13 @@ nav li {
 }
 
 nav button {
-  all: unset;
   font-size: 0.9em;
   color: #a08f36;
   background-color: transparent;
   padding: 0.5em 1em;
   border: 2px solid #a08f36;
   border-radius: 0.5em;
+  cursor: pointer;
 }
 
 .company-title {
@@ -69,26 +69,25 @@ nav button {
 }
 
 .caurosel {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.caurosel span{
-    display: flex;
-    font-size: 5em;
-    font-weight: 200;
-    height: 1em;
-    width: 1em;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+.caurosel span {
+  display: flex;
+  font-size: 5em;
+  font-weight: 200;
+  height: 1em;
+  width: 1em;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
-.caurosel span:nth-of-type(1){
-    background-color: #39372d;
+.caurosel span:nth-of-type(1) {
+  background-color: #39372d;
 }
 
-.caurosel span:nth-of-type(2){
-    background-color: #a08f36;
+.caurosel span:nth-of-type(2) {
+  background-color: #a08f36;
 }
-
